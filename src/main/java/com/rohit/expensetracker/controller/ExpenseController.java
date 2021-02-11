@@ -17,7 +17,7 @@ import com.rohit.expensetracker.model.Expense;
 import com.rohit.expensetracker.service.ExpenseService;
 
 @CrossOrigin("*") // * means any request coming from outside of the application allow them
-@Controller
+@RestController
 @RequestMapping("/api/v1")
 public class ExpenseController {
 
